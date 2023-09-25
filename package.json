@@ -8,12 +8,15 @@
   },
   "author": "Preetal Shah",
   "license": "ISC",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "lodash": "^4.17.21",
     "mongodb": "^4.5.0",
-    "mongoose": "^7.5.2"
+    "mongoose": ">=7.5.2"
   }
 }
